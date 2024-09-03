@@ -125,7 +125,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     -
       name: Download service artifacts
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
     -
       name: Load images
       run:  |
